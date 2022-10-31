@@ -21,10 +21,8 @@
 
 .language__container {
   background-color: white;
-  border: gray solid 1px;
-  width: 20rem;
-  border-radius: 15px;
-  padding: 0 15px ;
+  width: 27rem;
+  border-radius: 20px;
   margin-top: 7rem;
-  margin-left: 29rem;
+  margin-left: 24rem;
 }

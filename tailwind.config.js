@@ -56,6 +56,8 @@ module.exports = {
         "20x": "200px",
         "50s": "50px",
         "35s": "35px",
+        "30s": "30px",
+        "22s": "22px",
         "20s": "25px",
         "16s": "16px",
         "14s": "14px",
@@ -80,6 +82,7 @@ module.exports = {
         "40r": "40rem",
         "32r": "32rem",
         "20r": "20rem",
+        "40s": "40px",
         "8r": "8rem",
       },
       inset: {
