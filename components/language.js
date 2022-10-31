@@ -1,6 +1,6 @@
-function Lang() {
+function Lang(props) {
   return(
-    <section className="border border-black rounded-xl">
+    <section className={props.style}>
       <div className="border-b">
         <h1>Choose language</h1>
         <img className="w-22" src="/icons/close.png"/>

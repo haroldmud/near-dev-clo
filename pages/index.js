@@ -1,7 +1,9 @@
 import Header from "../components/header";
 import Button from "../components/button";
+import Lang from "../components/language";
 
 export default function Home() {
+  
   return (
     <>
       <Header linkOne={"./pageOne"} linkTwo={"https://wallet.near.org"}/>
@@ -122,6 +124,8 @@ export default function Home() {
           <p className="w-4/6 text-xl text-center pb-12">NEAR Balkans Hub: Bosnia & Herzegovina, Bulgaria, Croatia, Montenegro, North Macedonia, Serbia, and Slovenia</p>
         </div>
       </section>
+
+      <Lang style={"language"}/>
     </>
   )
 }
