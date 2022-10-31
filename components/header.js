@@ -3,8 +3,8 @@ import Button from "./button";
 
 function Header(props) {
   return (
-    <header className="flex justify-center">
-      <div className="flex justify-between pt-12 fixed md:w-5/6 w-full px-4 bg-white">
+    <header className="flex justify-center ">
+      <div className="flex justify-between pt-12 fixed md:w-5/6 w-full px-4 bg-white z-50">
         <div>
           <Link className="flex md:mt-0 mt-2" href="https://decade.org/">
             <div className="flex  mt-1 md:pr-3 pr-1 w-fit">
@@ -18,10 +18,8 @@ function Header(props) {
           </Link>
         </div>
         <div className="flex mt-1">
+          <Button function={props.function} style={"text-xl mt-2 mr-20 md:block hidden"} value={"Start The Course"}/>
           <Link href={props.linkOne}>
-            <Button style={"text-xl mt-2 mr-20 md:block hidden"} value={"Start The Course"}/>
-          </Link>
-          <Link href={props.linkTwo}>
             <Button style={"md:text-xl bg-lightblack text-white pb-3 pt-2 md:px-6 px-4 rounded-1r"} value={"Create wallet"}/>
           </Link>
         </div>

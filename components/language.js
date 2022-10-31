@@ -1,17 +1,35 @@
 function Lang(props) {
   return(
     <section className={props.style}>
-      <div className="border-b">
-        <h1>Choose language</h1>
-        <img className="w-22" src="/icons/close.png"/>
-      </div>
-      <div>
-        <div className="border">
-          <img className="w-22" src="/icons/croatia.png"/>
-          <h3>Croatian</h3>
-          <img className="w-22" src="/icons/left.png"/>
+      <section className="language__container z-20">
+        <div className="border-b flex justify-between px-2 py-4">
+          <h1 className="font-semibold">Choose language</h1>
+          <div><img onClick={props.function} className="w-16s mt-1" src="/icons/close.png"/></div>
         </div>
-      </div>
+        <div className="flex flex-col gap-4 mt-2">
+          <div className="flex justify-between py-4 px-4 border rounded-xl">
+            <div className="flex">
+              <div><img className="w-[22px] mr-2" src="/icons/croatia.png"/></div>
+              <h3>Croatian</h3>
+            </div>
+            <div><img className="w-[30px]" src="/icons/left.png"/></div>
+          </div>
+          <div className="flex justify-between border py-4 px-4  rounded-xl">
+            <div className="flex">
+              <div><img className="w-[22px] mr-2" src="/icons/bulgaria.png"/></div>
+              <h3>Bulgarian</h3>
+            </div>
+            <div><img className="w-[30px]" src="/icons/left.png"/></div>
+          </div>
+          <div className="flex justify-between py-4 px-4 border  rounded-xl mb-2">
+            <div className="flex">
+              <div><img className="w-[22px] mr-2" src="/icons/croatia.png"/></div>
+              <h3>Croatian</h3>
+            </div>
+            <div><img className="w-[30px]" src="/icons/left.png"/></div>
+          </div>
+        </div>
+      </section>
     </section>
   )
 }
