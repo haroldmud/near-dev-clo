@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="md:flex hidden justify-center">
           <svg width="164" height="132" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.511 120.017c1.318 1.354 6.103 10.6 6.633 10.823m0 0c.452.191 3.298-5.156 5.992-10.538M8.144 130.84c-5.012-24.418 17.84-38.27 35.281-47.719C64.522 71.692 82.33 66.933 100.376 59.01c26.494-11.631 59.68-29.574 62.055-57.026" stroke="#676767" stroke-width="2" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
         <div className="text-xl text-center">
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section>
       <section className="md:mt-0 mt-12">
-        <p className="text-center px-2 text-xl">Visit <span className="font-bold"><a href="https://nearbalkans.org/">nearbalkans.org</a></span> and make sure to follow us on our social and community channels!</p>
+        <p className="text-center px-2 md:text-xl text-18s">Visit <span className="font-bold"><a href="https://nearbalkans.org/">nearbalkans.org</a></span> and make sure to follow us on our social and community channels!</p>
         <div className="flex justify-center">
           <div className="relative  md:flex hidden w-[40rem] mt-12">
             <img className="md:block hidden w-5r pr-2" src="icons/icon1.png"/>
@@ -118,8 +118,8 @@ export default function Home() {
             <a className="md:w-32 text-center" href="#">Terms & Conditions</a>
           </div>
         </div>
-        <div className="flex justify-center">
-          <p className="w-4/6 text-xl text-center">NEAR Balkans Hub: Bosnia & Herzegovina, Bulgaria, Croatia, Montenegro, North Macedonia, Serbia, and Slovenia</p>
+        <div className="flex justify-center mt-12">
+          <p className="w-4/6 text-xl text-center pb-12">NEAR Balkans Hub: Bosnia & Herzegovina, Bulgaria, Croatia, Montenegro, North Macedonia, Serbia, and Slovenia</p>
         </div>
       </section>
     </>

@@ -14,7 +14,7 @@ module.exports = {
         "72s": "72px",
         "36s": "36px",
         "15s": "15px",
-        "8s": "8px",
+        "18s": "18px",
         "5s": "5px",
       },
       colors: {
