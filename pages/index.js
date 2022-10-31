@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Header function={isOpened} linkOne={"./pageOne"} linkTwo={"https://wallet.near.org"}/>
-      <section className="main text-center mx-auto pt-60 w-5/6 text-lightblack">
+      <section className="main text-center mx-auto pt-80 w-5/6 text-lightblack">
         <h1 className="md:text-72s md:w-full w-20x mx-auto font-medium text-36s text-color">Get <span class="main__title">NEAR</span> Certified!</h1>
         <p className=" pt-5 pb-24 lg:text-[22px] text-lg hero-paragraph-color leading-[28px]">We, in NEAR Balkans, know how important it is to have regional and local support. 
             Now you can become NEAR certified in a regional language of preference and connect 
