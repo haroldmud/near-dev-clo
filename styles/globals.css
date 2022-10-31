@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main__title {
+  background: linear-gradient(#9092fb,#86b5ef,#7bdde2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.language {
+  position: absolute;
+  position: fixed;
+  top: 16.5%;
+  width: 100%;
+  height: 84%;
+  background-color: rgba(128, 128, 128, 0.509);
+  overflow: hidden;
+}
+
+.language__container {
+  background-color: white;
+  border: gray solid 1px;
+  width: 50rem;
+  border-radius: 15px;
+  padding: 0 15px ;
+  margin-top: 7rem;
+  margin-left: 29rem;
+}
