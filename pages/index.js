@@ -59,17 +59,17 @@ export default function Home() {
               <div className="md:mt-20 md:ml-44 mt-6">
                 <h2 className="flex flex-col md:items-start items-center font-semibold md:text-4xl text-xl">Complete the course</h2>
                 <p className="flex flex-col md:items-start items-center mt-4">In three simple modules, learn:</p>
-                <ul className="flex flex-col md:gap-8 gap-4 md:mt-8 mt-4 text-15s">
-                  <li className="flex flex-col md:flex-row  md:gap-4 md:items-start items-center">
-                    <img className="md:w-[2rem] w-[1rem]" src="/icons/icon2.png"/>
+                <ul className="flex flex-col gap-8 md:mt-8 mt-4 text-15s">
+                  <li className="flex flex-col md:flex-row  md:gap-4 gap-2 md:items-start items-center">
+                    <img className="md:w-2r w-1r" src="/icons/icon2.png"/>
                     <p>Essential NEAR concepts</p>
                   </li>
-                  <li className="flex flex-col md:flex-row  md:gap-4 md:items-start items-center">
-                    <img className="md:w-[2rem] w-[1rem]" src="/icons/icon3.png"/>
+                  <li className="flex flex-col md:flex-row  md:gap-4 gap-2 md:items-start items-center">
+                    <img className="md:w-2r w-1r" src="/icons/icon3.png"/>
                     <p>How to write smart contracts on NEAR</p>
                   </li>
-                  <li className="flex flex-col md:flex-row  md:gap-4 md:items-start items-center">
-                    <img className="md:w-[2rem] w-[1rem]" src="/icons/icon4.png"/>
+                  <li className="flex flex-col md:flex-row  md:gap-4 gap-2 md:items-start items-center">
+                    <img className="md:w-2r w-1r" src="/icons/icon4.png"/>
                     <p>How to build dapps on the NEAR blockchain</p>
                   </li>
                 </ul>
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="md:flex hidden justify-center">
           <svg width="164" height="132" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.511 120.017c1.318 1.354 6.103 10.6 6.633 10.823m0 0c.452.191 3.298-5.156 5.992-10.538M8.144 130.84c-5.012-24.418 17.84-38.27 35.281-47.719C64.522 71.692 82.33 66.933 100.376 59.01c26.494-11.631 59.68-29.574 62.055-57.026" stroke="#676767" stroke-width="2" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
-        <div className="text-xl text-center">
+        <div className="text-xl text-center md:mt-auto mt-20">
           <h2 className="text-3xl font-semibold">Claim NEAR certificate</h2>
           <div className="flex justify-center">
             <p className="md:w-1/2">Upon course completion, receive the NEAR dev 101 certificate as an NFT on your NEAR wallet</p>
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </section>
       <section className="md:mt-0 mt-12">
-        <p className="text-center px-2 md:text-xl text-18s">Visit <span className="font-bold"><a href="https://nearbalkans.org/">nearbalkans.org</a></span> and make sure to follow us on our social and community channels!</p>
+        <p className="text-center px-2 md:text-xl text-18s md:mt-auto mt-32 md:mb-auto mb-20">Visit <span className="font-bold"><a href="https://nearbalkans.org/">nearbalkans.org</a></span> and make sure to follow us on our social and community channels!</p>
         <div className="flex justify-center">
           <div className="relative  md:flex hidden w-40r mt-12">
             <img className="md:block hidden w-5r pr-2" src="icons/icon1.png"/>
