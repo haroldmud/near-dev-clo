@@ -4,7 +4,7 @@ import Button from "./button";
 function Header(props) {
   return (
     <header className="flex justify-center ">
-      <div className="flex justify-between pt-12 fixed md:w-5/6 w-full px-4 bg-white z-50">
+      <div className="flex justify-between pt-12 fixed md:w-5/6 w-full px-4 pb-4 bg-white z-50">
         <div>
           <Link className="flex md:mt-0 mt-2" href="https://decade.org/">
             <div className="flex  mt-1 md:pr-3 pr-1 w-fit">
